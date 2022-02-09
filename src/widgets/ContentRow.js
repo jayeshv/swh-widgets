@@ -1,0 +1,4 @@
+class ContentRow {
+}
+
+export ContentRow;

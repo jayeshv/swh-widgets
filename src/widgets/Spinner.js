@@ -1,0 +1,4 @@
+class Spinner {
+}
+
+export Spinner;
