@@ -6,9 +6,8 @@ class SearchFormWidget extends React.Component {
 
   constructor(props) {
     super(props);
-    const params = new URLSearchParams(window.location.search);
     this.state = {
-      query: ''
+      query: props.query
     };
   }
 
@@ -18,7 +17,7 @@ class SearchFormWidget extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    this.props.history.push('/fdsfdresultsdsds');
+    this.props.history.push('/results');
   }
 
   // redirect to the Results page

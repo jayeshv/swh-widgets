@@ -28,7 +28,7 @@ class SearchResultsWidget extends React.Component{
   render() {
     return(
       <div>
-        <SearchFormWidget />
+        <SearchFormWidget query={this.state.query} />
         Results
         <div>
           {
