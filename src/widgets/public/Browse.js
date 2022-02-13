@@ -10,7 +10,7 @@ class BrowseWidget extends React.Component {
   render() {
     return(
       <div>
-        Hello
+        Hello world
       </div>
     );
   }

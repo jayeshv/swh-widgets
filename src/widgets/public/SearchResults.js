@@ -18,6 +18,7 @@ class SearchResultsWidget extends React.Component{
     //Make the API call and alter the state
     // Add try catch
     if (this.state.query) {
+      // const result = ApiClient.Get('origin/search/{this.state.query}')
       const api = 'https:archive.softwareheritage.org/api/1/origin/search/' + this.state.query;
       const response = await fetch(api);
       const results = await response.json();

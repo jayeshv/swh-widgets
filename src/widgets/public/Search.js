@@ -1,6 +1,7 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import { Redirect } from 'react-router-dom';
 
 class SearchFormWidget extends React.Component {
 
@@ -17,7 +18,8 @@ class SearchFormWidget extends React.Component {
 
   handleSubmit = (e) => {
     e.preventDefault();
-    this.props.history.push('/results');
+    // alert(this.state.query);
+    // this.props.history.push('/results');
   }
 
   // redirect to the Results page
